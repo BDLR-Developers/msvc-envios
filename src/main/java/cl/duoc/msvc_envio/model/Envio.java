@@ -14,12 +14,13 @@ import lombok.NoArgsConstructor;
 @Data
 
 public class Envio {
+    
     @Id
-    private int numeroVenta;
-    private String nombreClienteString;
+    private Integer numeroVenta;
+    private String nombreCliente;
     private String correoCliente;
-    private int telefonoCliente;
+    private String telefonoCliente;
     private String direccion;
     private String estadoEnvio;
-    private String idUsuario;
+    private Integer idUsuario;
 }
